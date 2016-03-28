@@ -1,0 +1,15 @@
+/* CSS for LynxSzenarioXBlock */
+
+.lynxszenario_xblock{
+    background-color: #f2f2f2;
+}
+
+.lynxszenario_szenario{
+    width : 100%;
+}
+
+.lynxszenario_xblock:after{
+    content:"";
+    display: table;
+    clear: both;
+}

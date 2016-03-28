@@ -1,0 +1,31 @@
+<div class="lynxszenario_xblock_studio">
+
+    <!-- XBlock options -->
+    <div class="chx_tab_options">
+
+        <p class="chx_desc">Display Name</p>
+        <input type="text" class="chx_display_name" value="{{ self.display_name }}">
+        <br/>
+
+    </div>
+
+
+    <!-- HTML editor tab -->
+    <div class="chx_tab_html">
+        <p class="chx_desc">HTML</p>
+        </br>
+        <h3>Please use Assets URL of image from 'Files & Upload' page to add image from editor.
+        </br>
+        Example: '/asset-v1:XYZ+06+01_2017+type@asset+block@pqrs-somefilename.png'.</h3>
+        <textarea name="chx_body_html" id="chx_body_html" wrap="off" class="chx_body_html" cols="80" rows="20">{{ self.body_html }}</textarea>
+    </div>
+
+    <!-- Preview tab -->
+    <div class="chx_tab_preview" hidden>
+        <p>Preview tab currently disabled.</p>
+        <div class="chx_javascript_error" hidden>
+            <p>There is a problem in this XBlock's JavaScript code. Please check your console log.</p>
+        </div>
+    </div>
+
+</div>
